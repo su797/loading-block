@@ -1,0 +1,102 @@
+/**
+ * loading-block1.0.css
+ * Description:文件描述
+ * Created by 苏函
+ * Team:ThreeGuys GO
+ * version:1.0
+ * Created on 2020/12/11 23:31
+ * Summary:摘要
+ * 
+ */
+/*用于文本内容加载时的加载容器
+结构例子为
+	<div class="loading-text-box">
+					<p class="loading-title"></p>
+					<p class="loading-sub-title"></p>
+					<p class="loading-text"></p>
+				</div>
+可根据内容进行搭配
+*/
+.loading-text-box{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.loading-text-box>p{
+    display: inline-block;
+    width: 100%;
+    background: rgb(245, 245, 245);
+    border-radius:5px ;
+    margin-top: 10px;
+}
+/*标题块*/
+.loading-title{
+    width: 50%;
+    height: 2rem;
+
+}
+/*副标题块*/
+.loading-sub-title{
+    height: 1.5rem;
+}
+/*小型块*/
+.loading-sub-sm{
+    width: 20px;
+    height: 1.5rem;
+}
+/*文本块*/
+.loading-text{
+    height: 4rem;
+}
+.loading-half{
+    width: 50%!important;
+    max-width: 700px;
+}
+/*30%块*/
+.loading-one-third{
+    width: 30%!important;
+    max-width: 400px;
+}
+/*小loading块*/
+.loading-small{
+    width:100px!important;
+}
+/*小loading块*/
+.loading-md{
+    width:200px!important;
+}
+/*高*/
+.loading-tall{
+    height: 300px!important;
+}
+
+/*高*/
+.loading-taller{
+    height: 500px!important;
+}
+/*定高*/
+.loading-height{
+    height:150px!important;
+}
+/*圆形，需要和square并用*/
+.loading-circle{
+    border-radius: 50% 50%!important;
+}
+/*小正方形*/
+.loading-square-sm{
+    width: 100px!important;
+    height: 100px!important;
+}
+.loading-square-md{
+    width: 200px!important;
+    height: 200px!important;
+}
+.loading-square-lg{
+    width: 300px!important;
+    height: 300px!important;
+}
+.space-20{
+    display: inline-block;
+    width: 20px;
+}
